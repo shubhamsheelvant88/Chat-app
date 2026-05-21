@@ -1,15 +1,10 @@
-.chat-container {
+/* .chat-container {
     display : flex;
     justify-content: center;
     align-items: center;
     margin-top : 430px;
-}
-
-.send {
-    margin-left : 5px;
-}
-
-input {
+} */
+/* input {
     padding: 5px;
     width : 300px;
 }
@@ -20,5 +15,60 @@ h1 {
 
 .btn {
     width : 80px;
+} */
 
+/* .bottom {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap : 10px;
 }
+
+#chat {
+    display : flex;
+    flex: 1;
+    overflow-y: auto;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.chat-container {
+    display : flex;
+    height: 500px;
+    width : 500px;
+    justify-content: center;
+    align-items: center;
+    flex-direction : column;
+}
+
+input {
+    flex: 1;
+
+    padding: 10px;
+} */
+.chat-container {
+    width: 500px;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+
+#chat {
+    flex : 1;
+    overflow-y : auto;
+    border : 1px solid gray;
+    padding : 10px;
+}
+
+.bottom {
+    display : flex;
+    gap :10px;
+    margin-top : 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}  

@@ -14,4 +14,4 @@ btn.addEventListener("click" , () => {
     chatBox.appendChild(div); // append in the chat div
 
     inp.value = "";
-})
+});
